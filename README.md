@@ -45,3 +45,12 @@ Changed ownership from root to jenkins enabling seamless accessibility to the fi
 
 ![eks21](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/0555cbd3-e3d2-45c6-a8f8-1e0578023007)
 
+## Add AWS Credentials on Jenkins
+
+Incorporating AWS credentials into Jenkins is essential for establishing secure and authenticated communication between Jenkins and AWS services. This step ensures that Jenkins has the necessary access to AWS resources, facilitating the deployment process. By providing AWS access key and secret access key, Jenkins gains the authorization to interact with the specified AWS account, enhancing the overall security and functionality of the CI/CD pipeline.
+
+![eks9](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/1fb22c6d-c254-4a0a-8263-53d21d20718e)
+
+![eks10](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/cd222eec-4b38-432b-b3db-f9bb80974d61)
+
+
