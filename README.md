@@ -31,3 +31,17 @@ The installation can be accessed using the following URL. https://weaveworks-git
 ![eks6](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/3d6638ad-421e-4742-8b23-573accd3a0e1)
 
 ## Create kubeconfig File
+Creating the kubeconfig file is essential in the project workflow. It involves verifying that the Jenkins user possesses the necessary permissions to access the EKS cluster securely. Subsequently, the kubeconfig file is generated, incorporating iam-authenticator for proper AWS Identity and Access Management (IAM) authentication. This step ensures a secure configuration, enabling seamless communication between Jenkins and the EKS cluster during deployment. It is pivotal for maintaining security and facilitating smooth interaction with the Kubernetes environment while leveraging IAM for authentication. 
+To create a kubconfig file, installation can be accessed using the following URL. https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
+
+![eks19](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/2125603e-2e3a-44a4-94d8-9e6f041fe646)
+
+
+The configuration file, .kube/config, has been relocated to the jenkins_home directory. A dedicated .kube folder has been created within jenkins_home, housing the config file for streamlined organization and accessibility.
+
+![eks20](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/cbee6bc9-6737-4101-871a-b51d8f9d3b61)
+
+Changed ownership from root to jenkins enabling seamless accessibility to the file by Jenkins.
+
+![eks21](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/0555cbd3-e3d2-45c6-a8f8-1e0578023007)
+
