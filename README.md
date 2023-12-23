@@ -53,4 +53,26 @@ Incorporating AWS credentials into Jenkins is essential for establishing secure 
 
 ![eks10](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/cd222eec-4b38-432b-b3db-f9bb80974d61)
 
+## ADJUST JENKINSFILE
+Update your Jenkinsfile to include the EKS deployment steps.
+
+![eks11](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/d9a0740b-0849-412b-9f1c-7dad57c53083)
+
+## Configure EKS Cluster Deployment
+
+Generate a Jenkins job on the server and initiate the pipeline using the Git repository URL. This involves configuring a job within Jenkins and triggering the pipeline execution by specifying the repository's URL. 
+
+![eks12](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/4b04bf7a-df94-44a6-9088-fd88d16344dc)
+
+![eks13](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/00ff040a-d803-445a-9d1e-619dc92f8ab6)
+
+![eks14](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/bc4bb35e-a947-4eca-a7b2-343d029aaa2d)
+
+![eks16](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/225154e6-63f9-40a9-b6a7-456e08644d51)
+
+Successfully set up Jenkins for deploying applications to an EKS cluster. 
+
+
+
+
 
