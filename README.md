@@ -60,7 +60,7 @@ Update your Jenkinsfile to include the EKS deployment steps.
 
 ## Configure EKS Cluster Deployment
 
-Generate a Jenkins job on the server and initiate the pipeline using the Git repository URL. This involves configuring a job within Jenkins and triggering the pipeline execution by specifying the repository's URL. 
+Create a Jenkins job on the server and initiate the pipeline using the Git repository URL. This involves configuring a job within Jenkins and triggering the pipeline execution by specifying the repository's URL. 
 
 ![eks12](https://github.com/busolagbadero/Deploy-to-EKS-cluster-from-Jenkins/assets/94229949/4b04bf7a-df94-44a6-9088-fd88d16344dc)
 
